@@ -18,10 +18,11 @@
 You can download and install the Socket.IO C++ client using the [vcpkg](https://github.com/Microsoft/vcpkg) dependency manager:
 
 ```bash
+cmd
 git clone https://github.com/Microsoft/vcpkg.git
 cd vcpkg
-./bootstrap-vcpkg.sh
-./vcpkg integrate install
+bootstrap-vcpkg.sh
+vcpkg integrate install
 vcpkg install socket-io-client
 ```
 
